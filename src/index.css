@@ -1,0 +1,52 @@
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    display: inline-block;
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        color: red;
+    }
+    25% {
+        color: orange;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: green;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+h2 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.title-game {
+    font-family: "Patrick Hand", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
