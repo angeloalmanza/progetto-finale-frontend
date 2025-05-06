@@ -1,12 +1,22 @@
-# React + Vite
+# Videogame Collection
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo progetto è il frontend della web-app per la gestione di una raccolta di videogiochi. Utilizza React per creare un'interfaccia utente dinamica e interattiva.
 
-Currently, two official plugins are available:
+## ⚙️ Tecnologie utilizzate
+- React
+- Axios (per comunicazione API)
+- React Router DOM
+- CSS Modules
+- Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎮 Funzionalità principali
+- Visualizzazione dei giochi in card con immagine
+- Dettaglio del singolo gioco cliccando su una card
+- Comunicazione asincrona con le API Laravel
 
-## Expanding the ESLint configuration
+## 📁 Struttura del progetto
+- `src/pages`: Pagine principali (Home, GameDetail)
+- `src/App.jsx`: Routing principale
+- `src/layout` : Layout dell'app
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Home](./public/home.png)
